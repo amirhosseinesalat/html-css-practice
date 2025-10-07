@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+	font-family: 'Yekan';
+	src:	url('./Yekan-Font-master/Yekan.eot'); /* IE9 Compat Modes */
+	src:	url('./Yekan-Font-master/Yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('./Yekan-Font-master/Yekan.woff2') format('woff2'), /* Modern Browsers */
+			url('./Yekan-Font-master/Yekan.woff') format('woff'), /* Modern Browsers */
+			url('./Yekan-Font-master/Yekan.otf') format('opentype'), /* Open Type Font */	
+			url('./Yekan-Font-master/Yekan.ttf') format('truetype'); /* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: auto;
+}
+body{
+    font-family: 'yekan',sans-serif;
+}
+.container{
+    background-image: linear-gradient(42deg,#50D53E,#185216);
+    width: 100vw;
+    height: 100vh;
+}
+.box{
+    width: 850px;
+    height: 190px;
+    background:#11420D;
+    border: 2px solid #246D1F;
+    border-radius: 9px;
+    position: absolute;
+    top: 90px;
+    left: 245px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.39);
+}
+.main-box {
+     width: 850px;
+    height: 140px; 
+    position: absolute;
+    bottom: 0.3px;
+    background-color: #246D1F ;
+}
+h1 {
+    text-align: center;
+    color: #D0F26D;
+}
+h2{
+    text-align: center;
+    color: #EDFFD4;
+    padding: 50px 10px;
+    font-size: 30px;
+}
+.decorative-shape {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    clip-path: polygon(0 100%, 100% 100%, 0 0);
+    width: 45vw;
+    height: 60vh;
+    background-image: linear-gradient(47deg,#1E601B,#1A224F);
+}
+
+.decorative-layer1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30vw;
+    height: 40vh;
+    clip-path: polygon(0 100%, 100% 100%, 0 0);
+    background-image: linear-gradient(47deg,#000209,#1A224F);
+    opacity: 0.7;
+}
+
+.decorative-layer2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 15vw;
+    height: 20vh;
+    clip-path: polygon(0 100%, 100% 100%, 0 0);
+    background-image: linear-gradient(47deg,#000000,#141D3F);
+}
